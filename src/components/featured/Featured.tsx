@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/img/logo-bg.png';
+import tupac from '../../assets/img/bunks/2PAC_re.jfif';
 
 function Featured() {
     return (
@@ -11,7 +12,7 @@ function Featured() {
                         <div className="row justify-content-center">
                             <div className="col-4">
                                 <div className="card shadow-sm">
-                                    <img src={process.env.PUBLIC_URL + '/img/bunks/2PAC_re.jfif'} className="bd-placeholder-img card-img-top img-fluid" width="100%" height="225" alt="Tupac" />
+                                    <img src={tupac} className="bd-placeholder-img card-img-top img-fluid" width="100%" height="225" alt="Tupac" />
                                 </div>
                             </div>
                             <div className="col-4">
