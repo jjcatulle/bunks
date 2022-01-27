@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import Footer from '../common/footer/Footer';
 
 import logo from '../../assets/img/logo-bg.png';
@@ -19,8 +19,8 @@ function Mint() {
         }
     }
 
-    const handleInputChange = (e: any) => {
-        setNum(e.target.value);
+    const handleInputChange = (e: ChangeEvent<HTMLInputElement>): void => {
+        setNum(parseInt(e.target.value));
     }
 
     return (
