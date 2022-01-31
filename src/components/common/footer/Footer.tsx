@@ -19,7 +19,7 @@ function Footer() {
                                 <a href="https://twitter.com/nft_bunks" target="_blank" rel="noreferrer" aria-label="Follow us on Twitter" className="twitter-icon">
                                     <FontAwesomeIcon icon={faTwitter} className="twitter"/>
                                 </a>
-                                <a href="/" target="_blank" rel="noreferrer" aria-label="Follow us on Discord" className="discord-icon">
+                                <a href="https://t.co/DKVtZbBYbq" target="_blank" rel="noreferrer" aria-label="Follow us on Discord" className="discord-icon">
                                     <FontAwesomeIcon icon={faDiscord} className="discord"/>
                                 </a>
                             </div>
