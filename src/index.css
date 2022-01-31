@@ -190,17 +190,17 @@ p {
   border-color: #fff !important;
 }
 
-.btn-header {
+/* .btn-header {
   display: block;
   float: right;
-}
+} */
 
 @media screen and (max-width: 600px) {
-  .btn-header {
+  /* .btn-header {
     float: none;
     margin: 0 auto 0;
     width: 225px;
-  }
+  } */
   
   .social-media {
     margin-top: 15px;
