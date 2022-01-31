@@ -4,6 +4,7 @@ import soul from '../../assets/img/organizations/S2SS-New-FB-Post-Image-2020.png
 import thurgood from '../../assets/img/organizations/thurgood.jpeg';
 import vida from '../../assets/img/organizations/Vida.png';
 import OBM from '../../assets/img/organizations/100_BM_New_Logo_black_-01_7.png';
+import uncf from '../../assets/img/organizations/UNCF.png';
 
 function Organizations() {
     return (
@@ -41,7 +42,11 @@ function Organizations() {
                                     <img src={OBM} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="100 Men of America, Inc." />
                                 </div>
                             </div>
-                            
+                            <div className="col">
+                                <div className="card shadow-sm">
+                                    <img src={uncf} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="UNCF - A mind is a terrible thing to waste." />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
