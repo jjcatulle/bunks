@@ -78,6 +78,7 @@ function Mint() {
       setNum(Number(num) + 1);
     }
   };
+  
 
   const decNum = () => {
     if (num > 0) {
