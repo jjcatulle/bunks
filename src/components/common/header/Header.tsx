@@ -22,10 +22,10 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <a href="https://docs.google.com/document/d/1nSS3W1fqy6_myl7lQK58SmL_-1yuNoYN1VBRNbz_wxw/edit" target="_blank" rel="noreferrer" className="nav-link text-white">
+                        <Link to="/whitepaper" className="nav-link text-white">
                             <FontAwesomeIcon icon={faCopy} className="bi d-block mx-auto mb-1" width="24" height="24" />
                             Whitepaper
-                        </a>
+                        </Link>
                     </li> 
                     <li>
                         <a href="https://twitter.com/nft_bunks" target="_blank" rel="noreferrer" aria-label="Follow us on Twitter" className="nav-link text-white">
