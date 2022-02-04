@@ -27,7 +27,7 @@ function Whitepaper() {
                                     <li><p className="lead">There is a special 1 of 1 that is available ONLY if you have a Legendary…if you crack the code of the scavenger hunt first, this will be the prize…</p></li>
 
 
-                                    <li><p className="lead">The first 500 NFT’s for our project will be free, and 6500 will cost .035 in ETH.</p></li>
+                                    <li><p className="lead">The first 500 NFT’s for our project will be free, and 6500 will cost .015 in ETH.</p></li>
                                     <li><p className="lead">So the project never loses its vision, 5% of royalties will go straight to the cause, and only 2.5% will go to the entire team (7.5% total).</p></li>
                                     <li><p className="lead">When we sell out, we will donate <strong>20%</strong> sales to Black Communities and DAO. </p></li>
                                     <li><p className="lead"><strong>Truly impactful amounts</strong> will go to underfunded schools, charities, and programs suggested by the community, as well as the team.</p></li>
@@ -37,7 +37,7 @@ function Whitepaper() {
                                 <h2 className="text-center mb-4" style={{fontStyle: "italic", fontWeight: "bold"}}>Q2 Plans</h2>
                                 <p className="lead">BunksNFT  will launch their own staking platform, earning $SOUL Tokens (ERC20) that will be listed on a decentralized exchange. A percentage of the minting funds will be used to provide liquidity to this token! </p>
                                 <p className="lead">You can use $SOUL to purchase drops, rare NFTs in the community store, or simply HOLD for the $SOUL!</p>
-                                <p className="lead">We will purchase Netvrk land for 3-D Bunks, you can use $SOUL to Purchase 3d ASSESTS AS WELL !</p>
+                                <p className="lead">We will purchase Netvrk land for 3-D Bunks, you can use $SOUL to Purchase 3d ASSETS AS WELL !</p>
                             </div>
                         </div>
                     </div>
