@@ -27,18 +27,18 @@ function Mint() {
       }
       const accounts = await web3.eth.getAccounts();
       setstatus({ ...status, loading: true });
-      if (totalSupply < 500) {
-        await Contract().methods.freeMint(num).send({
-          from: accounts[0],
-        });
-      } else {
+      // if (totalSupply < 500) {
+      //   await Contract().methods.freeMint(num).send({
+      //     from: accounts[0],
+      //   });
+      // } else {
         await Contract()
           .methods.mint(num)
           .send({
             from: accounts[0],
             value: web3.utils.toWei((0.035 * num).toString(), "ether"),
           });
-      }
+      // }
       alert("Transaction sent");
     } catch (error) {
       //@ts-ignore
