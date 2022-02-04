@@ -37,7 +37,7 @@ function Whitepaper() {
                                 <h2 className="text-center mb-4" style={{fontStyle: "italic", fontWeight: "bold"}}>Q2 Plans</h2>
                                 <p className="lead">BunksNFT  will launch their own staking platform, earning $SOUL Tokens (ERC20) that will be listed on a decentralized exchange. A percentage of the minting funds will be used to provide liquidity to this token! </p>
                                 <p className="lead">You can use $SOUL to purchase drops, rare NFTs in the community store, or simply HOLD for the $SOUL!</p>
-                                <p className="lead">We will purchase Netvrk land for 3-D Bunks, you can use $SOUL to Purchase 3d ASSESTS AS WELL !</p>
+                                <p className="lead">We will purchase Netvrk land for 3-D Bunks, you can use $SOUL to Purchase 3d ASSETS AS WELL !</p>
                             </div>
                         </div>
                     </div>
