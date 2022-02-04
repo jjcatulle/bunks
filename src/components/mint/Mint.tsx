@@ -27,12 +27,18 @@ function Mint() {
       }
       const accounts = await web3.eth.getAccounts();
       setstatus({ ...status, loading: true });
-      await Contract()
-        .methods.mint(num)
-        .send({
+      if (totalSupply < 500) {
+        await Contract().methods.freeMint(num).send({
           from: accounts[0],
-          value: totalSupply >= 500 ? 35000000000000000 * num : 0,
         });
+      } else {
+        await Contract()
+          .methods.mint(num)
+          .send({
+            from: accounts[0],
+            value: web3.utils.toWei((0.035 * num).toString(), "ether"),
+          });
+      }
       alert("Transaction sent");
     } catch (error) {
       //@ts-ignore
@@ -59,7 +65,8 @@ function Mint() {
         const accounts = await web3.eth.getAccounts();
         setstatus({ ...status, loading: true });
         let supply = await Contract().methods.totalSupply().call();
-        settotalSupply(supply);
+        let totalMinted=parseInt(supply)+130;
+        settotalSupply(totalMinted);
       } catch (error) {
         //@ts-ignore
         alert(error.message);
@@ -74,11 +81,10 @@ function Mint() {
   }, []);
 
   const incNum = () => {
-    if (num < 7) {
+    if (num < 20) {
       setNum(Number(num) + 1);
     }
   };
-  
 
   const decNum = () => {
     if (num > 0) {
@@ -133,9 +139,7 @@ function Mint() {
                   </button>
                 </div>
               </div>
-              <p className="text-center fw-normal fs-5 mt-1">
-                .035 ETH
-              </p>
+              <p className="text-center fw-normal fs-5 mt-1">.035 ETH</p>
               <p className="text-center fw-normal fs-5 mt-1">
                 (first 500 free)
               </p>

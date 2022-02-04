@@ -4,7 +4,7 @@ import NFT from "./abis/MyNFT.json";
 const instance = (type = "NFT") => {
   return new web3.eth.Contract(
     NFT.abi,
-    "0x174e1d08e1a16d05e55131a14607b93b736b93bb"
+    "0x3b4f37bEAEb2b34435D6B1b89F8139bC168a574e"
   );
 };
 
