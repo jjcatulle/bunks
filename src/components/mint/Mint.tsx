@@ -27,7 +27,7 @@ function Mint() {
       }
       const accounts = await web3.eth.getAccounts();
       setstatus({ ...status, loading: true });
-      if (totalSupply < 1000) {
+      if (totalSupply < 500) {
         await Contract().methods.freeMint(num).send({
           from: accounts[0],
         });
@@ -141,7 +141,7 @@ function Mint() {
               </div>
               <p className="text-center fw-normal fs-5 mt-1">.035 ETH</p>
               <p className="text-center fw-normal fs-5 mt-1">
-                (first 1000 free)
+                (first 500 free)
               </p>
             </div>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mt-1">
