@@ -36,7 +36,7 @@ function Mint() {
           .methods.mint(num)
           .send({
             from: accounts[0],
-            value: web3.utils.toWei((0.035 * num).toString(), "ether"),
+            value: web3.utils.toWei((0.015 * num).toString(), "ether"),
           });
       }
       alert("Transaction sent");
@@ -139,7 +139,7 @@ function Mint() {
                   </button>
                 </div>
               </div>
-              <p className="text-center fw-normal fs-5 mt-1">.035 ETH</p>
+              <p className="text-center fw-normal fs-5 mt-1">.015 ETH</p>
               <p className="text-center fw-normal fs-5 mt-1">
                 (first 500 free)
               </p>
