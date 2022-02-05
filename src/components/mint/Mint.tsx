@@ -141,7 +141,7 @@ function Mint() {
               </div>
               <p className="text-center fw-normal fs-5 mt-1">.015 ETH</p>
               <p className="text-center fw-normal fs-5 mt-1">
-                (first 500 free)
+                (The next 1000 are free)
               </p>
             </div>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mt-1">
