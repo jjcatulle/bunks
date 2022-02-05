@@ -27,7 +27,7 @@ function Mint() {
       }
       const accounts = await web3.eth.getAccounts();
       setstatus({ ...status, loading: true });
-      if (totalSupply < 500) {
+      if (totalSupply < 1500) {
         await Contract().methods.freeMint(num).send({
           from: accounts[0],
         });
