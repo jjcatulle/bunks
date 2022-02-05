@@ -15,7 +15,7 @@ function Whitepaper() {
 
                                 <ul>
                                     <li><p className="lead">An essential point of the year is almost upon us…</p></li>
-                                    <li><p className="lead">As Black History Month approaches and Black People remain underrepresented in the NFT space, we embarked on a mission to revolutionize the world’s view of NFT’s.</p></li>
+                                    <li><p className="lead">As we participate in Black History Month approaches, Black People remain underrepresented in the NFT space, we embarked on a mission to revolutionize the world’s view of NFT’s.</p></li>
                                     <li><p className="lead">We want to encourage equal representation in the NFT space, as well as remember and respect the legacies of inspiring African-American and Black figures throughout history.</p></li>
                                     <li><p className="lead">We need a strong platform to convey this message, so we take inspiration from the most popularized NFT of them all: the Crypto Punks. </p></li>
                                     <li><p className="lead">To help honor African Americans and Blacks Worldwide, a Crypto Punk derivative called <strong>"Bunks"</strong>, was born.</p></li>
@@ -27,7 +27,7 @@ function Whitepaper() {
                                     <li><p className="lead">There is a special 1 of 1 that is available ONLY if you have a Legendary…if you crack the code of the scavenger hunt first, this will be the prize…</p></li>
 
 
-                                    <li><p className="lead">The first 500 NFT’s for our project will be free, and 6500 will cost .015 in ETH.</p></li>
+                                    <li><p className="lead">The first 1500 NFT’s for our project will be free, and 5500 will cost .015 in ETH.</p></li>
                                     <li><p className="lead">So the project never loses its vision, 5% of royalties will go straight to the cause, and only 2.5% will go to the entire team (7.5% total).</p></li>
                                     <li><p className="lead">When we sell out, we will donate <strong>20%</strong> sales to Black Communities and DAO. </p></li>
                                     <li><p className="lead"><strong>Truly impactful amounts</strong> will go to underfunded schools, charities, and programs suggested by the community, as well as the team.</p></li>
