@@ -28,7 +28,7 @@ function Featured() {
                             </div>
                         </div>
                         <div className="row row-cols-8 mt-4 mb-4">
-                            <p className="lead text-center">The first 500 NFT’s for our project will be free, and 6500 will cost .04 in ETH.</p>
+                            <p className="lead text-center">The first 500 NFT’s for our project will be free, and 6500 will cost .015 in ETH.</p>
                         </div>
                     </div>
                 </div>
