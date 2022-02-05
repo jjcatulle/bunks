@@ -81,7 +81,7 @@ function Mint() {
   }, []);
 
   const incNum = () => {
-    if (num < 20) {
+    if (num < 6) {
       setNum(Number(num) + 1);
     }
   };
