@@ -41,9 +41,9 @@ function Header() {
                     </li>
                 </ul>
                 <div className="col-md-3 text-end">
-                    <button type="button" className="btn btn-outline-secondary me-2 btn-header">
-                        CONNECT WALLET
-                    </button>
+                    <Link to="/mint" className="btn btn-outline-secondary me-2">
+                        MINT
+                    </Link>
                 </div>
             </header>
             </div>
